@@ -1,0 +1,17 @@
+[Nemo Action]
+
+Name=Add Desklets
+
+Comment=Add Desklets
+
+Exec=sagarmatha-settings desklets
+
+Selection=None
+
+Extensions=any;
+
+Icon-Name=display
+
+Dependencies=sagarmatha-settings;
+
+Conditions=desktop;dbus org.Sagarmatha;
